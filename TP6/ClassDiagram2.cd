@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TP6.Personne">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Personne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.Personnel">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="TP6.Personne" FixedFromPoint="true">
+      <Path>
+        <Point X="6.188" Y="1.988" />
+        <Point X="6.188" Y="2.125" />
+        <Point X="4.5" Y="2.125" />
+        <Point X="4.5" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personnel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.Etudiant">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="TP6.Personne" FixedFromPoint="true">
+      <Path>
+        <Point X="7.312" Y="1.988" />
+        <Point X="7.312" Y="2.125" />
+        <Point X="9.25" Y="2.125" />
+        <Point X="9.25" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Etudiant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.Directeur">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="TP6.Personnel" FixedFromPoint="true">
+      <Path>
+        <Point X="3.875" Y="3.733" />
+        <Point X="3.875" Y="4.375" />
+        <Point X="2.25" Y="4.375" />
+        <Point X="2.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.Enseignant">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="TP6.Personnel" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="3.733" />
+        <Point X="4.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enseignant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.Administratif">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="TP6.Personnel" FixedFromPoint="true">
+      <Path>
+        <Point X="5.125" Y="3.733" />
+        <Point X="5.125" Y="4.375" />
+        <Point X="6.75" Y="4.375" />
+        <Point X="6.75" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Administratif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP6.RH">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>RH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
