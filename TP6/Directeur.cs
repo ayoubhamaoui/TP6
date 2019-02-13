@@ -7,12 +7,29 @@ namespace TP6
 {
     public class Directeur : Personnel
     {
-        public Directeur(string nom)
+        private static Boolean isInstancied = false;
+
+        private Directeur(int code, string prenom, string nom, int bureau, int salaire, float primDiplacement) : base(code, prenom, nom, bureau, salaire,primDiplacement)
         {
-            this.nom = nom;
-            
         }
 
-        public override float calculerSalaire() => salaire + prime;
+        public static Directeur instatcie(int code, string prenom, string nom, int bureau, int salaire, float primDiplacement)
+        {
+            if (!isInstancied)
+            {
+                return new Directeur(code, prenom, nom, bureau, salaire, primDiplacement);
+            }
+            throw new Exception("already exists");
+        }
+
+        public override float calculerSalaire()
+        {
+            return base.Saliare + this.prime;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "  prime de deplacement : " + this.prime;
+        }
     }
 }

@@ -10,9 +10,35 @@ namespace TP6
         private string niveau;
         private float moy;
 
-        public Etudiant()
+        public string Niveau
         {
-            throw new System.NotImplementedException();
+            get => niveau;
+            set => niveau = value;
+        }
+
+        public float Moy
+        {
+            get => moy;
+            set => moy = value;
+        }
+
+        public Etudiant(int code, string prenom, string nom, string niveau, float moyenneAnnuele) : base(code, prenom, nom)
+        {
+            this.niveau = niveau;
+            moy = moyenneAnnuele;
+        }
+
+        public int CompareTo(Etudiant other)
+        {
+            if (moy < other.Moy)
+                return -1;
+            return 1;
+
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + "  niveau " + niveau + "moyenne annuele : " + moy;
         }
     }
 }

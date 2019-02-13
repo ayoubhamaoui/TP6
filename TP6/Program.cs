@@ -10,6 +10,7 @@ namespace TP6
     {
         public List<Personnel> grh;
 
+        
         public RH()
         {
             grh = new List<Personnel>();
@@ -21,6 +22,7 @@ namespace TP6
                 if(p is Enseignant) Console.WriteLine(p);
             }
         }
+
         static void Main(string[] args)
         {
 

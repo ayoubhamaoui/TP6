@@ -1,57 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="TP6.RH">
-    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Personne">
-    <Position X="6" Y="0.5" Width="1.5" />
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAIAAAIAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgIAAAICAAIAAAACAAAAAAAAA=</HashCode>
       <FileName>Personne.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Personnel">
-    <Position X="3" Y="2.75" Width="1.5" />
-    <InheritanceLine Type="TP6.Personne" ManuallyRouted="true" FixedFromPoint="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="TP6.Personne" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.25" Y="1.988" />
-        <Point X="6.25" Y="2.646" />
-        <Point X="3.75" Y="2.646" />
-        <Point X="3.75" Y="2.75" />
+        <Point X="7.25" Y="3.468" />
+        <Point X="7.25" Y="4.438" />
+        <Point X="5.25" Y="4.438" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAggACAAAAAAAgAAAAAAAA=</HashCode>
+      <HashCode>AEAAAABAAAAAAAAEAACIAAAggACAAAAAAAgAAAAAAAA=</HashCode>
       <FileName>Personnel.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Etudiant">
     <Position X="10.5" Y="3" Width="1.5" />
-    <InheritanceLine Type="TP6.Personne" FixedFromPoint="true">
+    <InheritanceLine Type="TP6.Personne" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.125" Y="1.988" />
-        <Point X="7.125" Y="2.625" />
-        <Point X="11.25" Y="2.625" />
-        <Point X="11.25" Y="3" />
+        <Point X="8.125" Y="3.468" />
+        <Point X="8.125" Y="4.438" />
+        <Point X="10.5" Y="4.438" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AIAAAAAAAAAAAAQEAAAABAAAAAQAAAAAAAAAAACAAAA=</HashCode>
       <FileName>Etudiant.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Enseignant">
-    <Position X="0.75" Y="5.5" Width="1.5" />
+    <Position X="2" Y="5.75" Width="1.5" />
     <InheritanceLine Type="TP6.Personnel" FixedFromPoint="true">
       <Path>
-        <Point X="3.125" Y="5.011" />
-        <Point X="3.125" Y="5.26" />
-        <Point X="1.5" Y="5.26" />
-        <Point X="1.5" Y="5.5" />
+        <Point X="3.875" Y="4.982" />
+        <Point X="3.875" Y="5.375" />
+        <Point X="2.75" Y="5.375" />
+        <Point X="2.75" Y="5.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -60,11 +58,11 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Administratif">
-    <Position X="3" Y="5.5" Width="1.5" />
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <InheritanceLine Type="TP6.Personnel" FixedToPoint="true">
       <Path>
-        <Point X="3.75" Y="5.011" />
-        <Point X="3.75" Y="5.5" />
+        <Point X="3.75" Y="3.938" />
+        <Point X="2" Y="3.938" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -73,17 +71,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TP6.Directeur">
-    <Position X="6" Y="5.5" Width="1.5" />
+    <Position X="5.5" Y="5.75" Width="1.5" />
     <InheritanceLine Type="TP6.Personnel" FixedFromPoint="true">
       <Path>
-        <Point X="4.312" Y="5.011" />
-        <Point X="4.312" Y="5.26" />
-        <Point X="6.75" Y="5.26" />
-        <Point X="6.75" Y="5.5" />
+        <Point X="5.062" Y="4.982" />
+        <Point X="5.062" Y="5.375" />
+        <Point X="6.25" Y="5.375" />
+        <Point X="6.25" Y="5.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAACAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Directeur.cs</FileName>
     </TypeIdentifier>
   </Class>
