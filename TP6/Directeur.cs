@@ -13,7 +13,7 @@ namespace TP6
         {
         }
 
-        public static Directeur instatcie(int code, string prenom, string nom, int bureau, int salaire, float primDiplacement)
+        public static Directeur instancie(int code, string prenom, string nom, int bureau, int salaire, float primDiplacement)
         {
             if (!isInstancied)
             {

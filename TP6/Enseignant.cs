@@ -22,7 +22,7 @@ namespace TP6
             this.code = Personnel.GCode++;
             this.grp = new Dictionary<string, List<Etudiant>>();
         }
-
+        
         public int Grade { get => grade; set => grade = value; }
         
         public override float calculerSalaire() => prime + salaire;
